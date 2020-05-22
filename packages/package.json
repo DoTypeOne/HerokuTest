@@ -1,0 +1,27 @@
+{
+  "name": "heroku",
+  "version": "1.0.0",
+  "description": "Express esample",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DoTypeOne/HerokuTest.git"
+  },
+  "keywords": [
+    "Heroku",
+    "Github",
+    "Express"
+  ],
+  "author": "Edoardo Ratti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DoTypeOne/HerokuTest/issues"
+  },
+  "homepage": "https://github.com/DoTypeOne/HerokuTest#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
