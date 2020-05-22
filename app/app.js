@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const bp = require('body-parser');
+var port = process.env.PORT || 8080
 
 app.use(bp.json());
 app.use(bp.urlencoded({ extended: true }));
@@ -32,6 +33,6 @@ app.post('/newuser', function(req, res) {
 
 });
 
-app.listen(8080, function() {
+app.listen(port, function() {
     console.log('Example app listening on port 8080!');
 });
